@@ -6,6 +6,99 @@ SPDX-License-Identifier: EUPL-1.2
 -->
 # Changelog
 
+## [0.23.0] - 2025-07-18
+
+### Bug Fixes
+
+- [**breaking**] Make --grid work when not in TTY
+- [**breaking**] Stdin behavior
+
+### Documentation
+
+- Add `--smart-group` option to README
+
+### Features
+
+- Add icons for changelog and todo files
+- Use CHANGES icon for CHANGELOG as well
+
+### Miscellaneous Tasks
+
+- Remove unused dependency
+
+## [0.22.1] - 2025-07-12
+
+### Bug Fixes
+
+- Replace default_input_path check with "." check
+
+### Documentation
+
+- "cheks" should be "checks"
+
+### Features
+
+- [**breaking**] Define -d/--treat-dirs-as-files behavior, tests
+- Refresh icon set with new glyphs and additions
+
+### Miscellaneous Tasks
+
+- Eza v0.22.0 changelogs, version bump
+- Eza v0.22.1 changelogs, version bump
+
+### Build
+
+- Bump phf from 0.11.3 to 0.12.1
+- Cargo bump 2025-07-03
+- Flake bump 2025-07-03
+- Bump windows-sys from 0.59.0 to 0.60.2
+
+### Ci
+
+- Automate dependency updates
+
+## [0.21.6] - 2025-06-26
+
+### Documentation
+
+- Add missing --absolute option to man page
+
+### Features
+
+- Add prettier icon for `.prettierrc.{json,json5,toml,yaml,yml}`
+
+### Miscellaneous Tasks
+
+- Upgrade FreeBSD to 14.3-RELEASE in unit tests workflow
+- Eza v0.21.6 changelogs, version bump
+
+### Build
+
+- Bump libc from 0.2.172 to 0.2.174
+- Cargo bump 2025-06-26
+- Flake bump 2025-06-26
+
+## [0.21.5] - 2025-06-20
+
+### Bug Fixes
+
+- Use OpenBSD 7.7 that has MSRV, instead of 7.6
+- Excessive open file descriptors
+- Typo
+- Impl desirable behaviour for unreadables
+- Unreadables format style
+- Clippy warnings
+- Missing word in comment
+
+### Miscellaneous Tasks
+
+- Eza v0.21.5 changelogs, version bump
+
+### Styling
+
+- Fix various clippy warnings for rust 1.86
+- Remove unnecessary semicolon
+
 ## [0.21.4] - 2025-05-30
 
 ### Bug Fixes
@@ -19,6 +112,7 @@ SPDX-License-Identifier: EUPL-1.2
 - Add Visual Studio icon for *.suo
 - Add swift icon for *.xcplayground
 - Add dropbox icon
+- Eza v0.21.4 changelogs, version bump
 
 ### Refactor
 
